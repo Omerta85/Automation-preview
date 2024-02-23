@@ -22,7 +22,6 @@ public class WorkElementsTest extends BaseTest {
     public void elementsTest() {
         // Отримуємо список всіх товарів
         ElementsCollection itemsList = $$(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item']"));
-
         // Проводимо ітерацію по кожному товару
         for (int i = 0; i < itemsList.size(); i++) {
             SelenideElement item = itemsList.get(i);
@@ -30,40 +29,17 @@ public class WorkElementsTest extends BaseTest {
             item.$("div.inventory_item_name").click();
 
             // Перевіряємо, чи відобразилась сторінка товару
-            if ($(By.xpath("//button[text()='Add to cart']")).exists()) {
-                // Клікаємо на кнопку "Add to cart"
-                $(By.xpath("//button[text()='Add to cart']")).click();
+            assert $(By.xpath("//button[text()='Add to cart']")).exists() : "Сторінка товару не відображається: " + item.text();
 
-                // Повертаємося назад до списку товарів
-                $(By.xpath("//button[text()='Back to products']")).click();
+            // Клікаємо на кнопку "Add to cart"
+            $(By.xpath("//button[text()='Add to cart']")).click();
 
-                // Оновлюємо список після кожного кроку
-                itemsList = $$(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item']"));
-            } else {
-                // Якщо сторінка товару не відобразилась, повідомляємо про це
-                System.out.println("Сторінка товару не відображається: " + item.text());
-            }
+            // Повертаємося назад до списку товарів
+            $(By.xpath("//button[text()='Back to products']")).click();
+
+            // Оновлюємо список після кожного кроку
+            itemsList = $$(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item']"));
         }
-//        // Проводимо ітерацію по кожному товару
-//        for (SelenideElement item : itemsList) {
-//            // Клікаємо на елемент, щоб відкрити сторінку товару
-//            item.$("div.inventory_item_name").click();
-//
-//            // Перевіряємо, чи відобразилась сторінка товару
-//            if ($(By.xpath("//button[text()='Add to cart']")).exists()) {
-//                // Клікаємо на кнопку "Add to cart"
-//                $(By.xpath("//button[text()='Add to cart']")).click();
-//
-//                // Повертаємося назад до списку товарів
-//                $(By.xpath("//button[text()='Back to products']")).click();
-//            } else {
-//                // Якщо сторінка товару не відобразилась, повідомляємо про це
-//                System.out.println("Сторінка товару не відображається: " + item.text());
-//            }
-//
-//            // Повторно знаходимо список всіх товарів
-//            itemsList = $$(By.xpath("//div[@class='inventory_list']//div[@class='inventory_item']"));
-//        }
     }
 }
 
