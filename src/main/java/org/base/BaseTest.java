@@ -11,7 +11,7 @@ public class BaseTest {
         Configuration.browserSize = "1280x920";//розмір вікна браузера
         Configuration.holdBrowserOpen = true;//дебажити
         Configuration.timeout = 10000; //час на який дається найти елемент
-        Configuration.pageLoadTimeout = 10000; // час коли запускаються тест після відкриття і прогрузки сайту
+        Configuration.pageLoadTimeout = 30000; // час коли запускаються тест після відкриття і прогрузки сайту
         Configuration.headless = false; //візуально не побачим браузера. позамовчуванню false
         Configuration.screenshots = true;// скриншот де відбулася помилка
         Configuration.savePageSource = false;
