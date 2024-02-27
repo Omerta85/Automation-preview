@@ -83,7 +83,7 @@ public class ConditionTest extends BaseTest {
         expectedItemHeadersList.add("Test.allTheThings() T-Shirt (Red)");
 
 
-        // Перевірка наявності елементів в колекції та наявності конкретного значення
+        // Перевірка наявності елементів в колекції та наявності конкретного значення.
         Assert.assertEquals(itemHeadersList.get(1), "Sauce Labs Bike Light", "Values are not equals");
         Assert.assertEquals(itemHeadersList, expectedItemHeadersList, "Lists are not equals");
 
