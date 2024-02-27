@@ -1,6 +1,6 @@
 package lesson1;
 
-import org.base.BaseTest;
+import base.config.BaseTest;
 import org.testng.annotations.*;
 
 public class SecondTest extends BaseTest {

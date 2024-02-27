@@ -2,7 +2,7 @@ package homework3;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
-import org.base.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;

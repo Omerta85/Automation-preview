@@ -2,7 +2,7 @@ package lesson3;
 
 import com.codeborne.selenide.*;
 import org.apache.commons.io.FileUtils;
-import org.base.BaseTest;
+import base.config.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.BeforeMethod;

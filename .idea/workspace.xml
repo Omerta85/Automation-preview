@@ -7,7 +7,6 @@
     <list default="true" id="10c331b9-8aec-45df-bd12-d7073a972b6f" name="Changes" comment="Lesson 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson4/ConditionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2c8equkL5ZqQ3LdlXsz2uHXj2P5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,7 +56,25 @@
       <recent name="D:\OKTEN\Automation\Automation-preview\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.WorkElementsTest.elementsTest">
+  <component name="RunManager" selected="TestNG.PatternsTest.pattern">
+    <configuration name="PatternsTest.pattern" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson5" />
+      <option name="MAIN_CLASS_NAME" value="lesson5.PatternsTest" />
+      <option name="METHOD_NAME" value="pattern" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WorkElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
@@ -120,31 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkWithElementsTest.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson3" />
-      <option name="MAIN_CLASS_NAME" value="lesson3.WorkWithElementsTest" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PatternsTest.pattern" />
         <item itemvalue="TestNG.WorkElementsTest.elementsTest" />
         <item itemvalue="TestNG.WorkElementsTest" />
         <item itemvalue="TestNG.WorkElementsTest.elementsTest (1)" />
         <item itemvalue="TestNG.WorkWithElementsTest.elementsTest (1)" />
-        <item itemvalue="TestNG.WorkWithElementsTest.uploadFileTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +169,8 @@
       <workItem from="1708717527368" duration="411000" />
       <workItem from="1709043016107" duration="23000" />
       <workItem from="1709057018989" duration="820000" />
-      <workItem from="1709058141356" duration="2314000" />
+      <workItem from="1709058141356" duration="4664000" />
+      <workItem from="1709144484379" duration="1153000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3">
       <option name="closed" value="true" />
@@ -201,11 +204,38 @@
       <option name="project" value="LOCAL" />
       <updated>1708717910443</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson 3">
+      <option name="closed" value="true" />
+      <created>1709061187577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709061187577</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson 3">
+      <option name="closed" value="true" />
+      <created>1709061524623</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709061524623</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 3" />
