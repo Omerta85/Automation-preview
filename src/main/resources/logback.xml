@@ -1,0 +1,39 @@
+<configuration>
+    <!-- Конфігурація апендера для виводу логів на консоль -->
+    <appender name="Console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!-- Шаблон форматування логів на консоль -->
+            <pattern>%d{HH:mm:ss} | %level | %-40(%logger{0}:%line) | %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Конфігурація апендера для запису логів у файли -->
+    <appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <!-- Дискримінатор, який визначає, який файл логу використовувати -->
+        <discriminator>
+            <Key>fullclass</Key>
+            <defaultValue>logs</defaultValue>
+        </discriminator>
+        <sift>
+            <!-- Конфігурація апендера для запису у файл -->
+            <appender name="File-{fullclass}" class="ch.qos.logback.core.FileAppender">
+                <!-- Шлях до файлу логу -->
+                <file>${user.dir}/Files/${fullclass}.log</file>
+                <!-- Вказує, чи треба дописувати у файл (false - перезаписувати) -->
+                <append>false</append>
+                <encoder>
+                    <!-- Шаблон форматування логів у файлі -->
+                    <pattern>%d{HH:mm:ss} | %level | %-40(%logger{0}:%line) | %msg%n</pattern>
+                </encoder>
+            </appender>
+        </sift>
+    </appender>
+
+    <!-- Конфігурація кореневого логера -->
+    <root level="INFO">
+        <!-- Посилання на апендер для виводу логів на консоль -->
+        <appender-ref ref="Console"/>
+        <!-- Посилання на апендер для запису логів у файли -->
+        <appender-ref ref="SIFT"/>
+    </root>
+</configuration>

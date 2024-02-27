@@ -1,0 +1,21 @@
+19:55:24 | INFO | Utils:112                                | [TestNG] Running:
+  C:\Users\666Om\AppData\Local\JetBrains\IntelliJIdea2023.1\temp-testng-customsuite.xml
+
+19:55:24 | INFO | WebDriverThreadLocalContainer:151        | No webdriver is bound to current thread: 1 - let's create a new webdriver
+19:55:24 | INFO | FileHelper:46                            | Creating folder: D:\OKTEN\Automation\Automation-preview\build\downloads\1709229324920_5468_1
+19:55:39 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
+19:55:54 | INFO | SelenideNettyClientFactory:25            | Changed readTimeout from PT3M to PT1M30S
+19:55:55 | INFO | WebDriverFactory:145                     | BrowserName=chrome Version=122.0.6261.71 Platform=windows
+19:55:55 | INFO | WebDriverFactory:75                      | Selenide v. 6.19.1
+19:55:55 | INFO | WebDriverFactory:139                     | Selenium WebDriver v. 4.13.0 build revision: ba948ece5b*
+19:55:55 | INFO | CreateDriverCommand:78                   | Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on windows (4640e7a71f653f41a823b3a5ea1152de)
+19:55:55 | INFO | DisposablesRegistry:30                   | Register WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (4640e7a71f653f41a823b3a5ea1152de),proxy=null,downloadsFolder=D:\OKTEN\Automation\Automation-preview\build\downloads\1709229324920_5468_1] in 1 [size=1]
+19:55:55 | INFO | DisposablesRegistry:32                   | Add shutdown hook in 1 [size=1]
+19:55:55 | INFO | WebDriverThreadLocalContainer:194        | Browser will stay open due to holdBrowserOpen=true: 1 -> ChromeDriver: chrome on windows (4640e7a71f653f41a823b3a5ea1152de)
+19:55:58 | INFO | LoginPage:18                             | Type username 'element -> By.xpath: //input[@placeholder='Username']
+19:56:00 | INFO | LoginPage:18                             | Type password 'element -> By.xpath: //input[@placeholder='Password']
+19:56:01 | INFO | LoginPage:18                             | Click submit 'element -> By.xpath: //input[@value='Login']
+19:56:02 | INFO | CloseDriverCommand:27                    | Hold browser open: 1 -> ChromeDriver: chrome on windows (4640e7a71f653f41a823b3a5ea1152de)
+19:56:02 | INFO | DisposablesRegistry:40                   | Unregister WebDriverInstance[config=StaticConfig,webDriver=ChromeDriver: chrome on windows (4640e7a71f653f41a823b3a5ea1152de),proxy=null,downloadsFolder=D:\OKTEN\Automation\Automation-preview\build\downloads\1709229324920_5468_1] in 1 [size=0]
+19:56:02 | INFO | DisposablesRegistry:66                   | Run cleanup: size=0
+19:56:02 | INFO | DisposablesRegistry:68                   | Finished cleanup
