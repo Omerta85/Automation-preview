@@ -3,7 +3,7 @@
 <suite name="First test suite">
     <test name="regression tests">
         <packages>
-            <package name="lesson1.*"/>
+            <package name="lesson7.*"/>
         </packages>
     </test>
 </suite>

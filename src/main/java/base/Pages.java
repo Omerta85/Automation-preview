@@ -9,6 +9,7 @@ public class Pages {
     public static MainPage mainPage;
     public static ShoppingCardPage shoppingCardPage;
     public static BurgerMenuPage burgerMenuPage;
+    public static DetailsItemPage detailsItemPage;
 
     // Метод для отримання сторінки входу на сайт
     public static LoginPage loginPage() {
@@ -40,5 +41,11 @@ public class Pages {
             burgerMenuPage = new BurgerMenuPage();
         }
         return burgerMenuPage;
+    }
+    public static DetailsItemPage detailsItemPage(){
+        if(detailsItemPage == null) {
+            detailsItemPage = new DetailsItemPage();
+        }
+        return detailsItemPage;
     }
 }

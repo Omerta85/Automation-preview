@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="10c331b9-8aec-45df-bd12-d7073a972b6f" name="Changes" comment="Lesson 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Files/logs.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Pages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/config/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/pages/BurgerMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/pages/BurgerMenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/pages/MainPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="affcb0cd-8552-4959-86bb-ff0968a5aa0b" />
+        <option name="url" value="https://github.com/Omerta85/Automation-preview.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -58,7 +74,25 @@
       <recent name="D:\OKTEN\Automation\Automation-preview\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FrameworkTest.test">
+  <component name="RunManager" selected="TestNG.VarArgsTest.test2">
+    <configuration name="DetailsItemTest.detilsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Automation-QA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.DetailsItemTest" />
+      <option name="METHOD_NAME" value="detilsTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FrameworkTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
@@ -77,34 +111,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatternsTest.pattern" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VarArgsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson5.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson5" />
-      <option name="MAIN_CLASS_NAME" value="lesson5.PatternsTest" />
-      <option name="METHOD_NAME" value="pattern" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkElementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Automation-QA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="homework3" />
-      <option name="MAIN_CLASS_NAME" value="homework3.WorkElementsTest" />
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.VarArgsTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -112,11 +128,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkElementsTest.elementsTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VarArgsTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WorkElementsTest" />
-      <option name="METHOD_NAME" value="elementsTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.VarArgsTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +146,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WorkElementsTest.elementsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VarArgsTest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework3.*" />
+          <option name="PATTERN" value="lesson7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homework3" />
-      <option name="MAIN_CLASS_NAME" value="homework3.WorkElementsTest" />
-      <option name="METHOD_NAME" value="elementsTest" />
+      <option name="PACKAGE_NAME" value="lesson7" />
+      <option name="MAIN_CLASS_NAME" value="lesson7.VarArgsTest" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VarArgsTest.test2" />
+        <item itemvalue="TestNG.VarArgsTest" />
+        <item itemvalue="TestNG.VarArgsTest.test" />
+        <item itemvalue="TestNG.DetailsItemTest.detilsTest" />
         <item itemvalue="TestNG.FrameworkTest.test" />
-        <item itemvalue="TestNG.PatternsTest.pattern" />
-        <item itemvalue="TestNG.WorkElementsTest.elementsTest" />
-        <item itemvalue="TestNG.WorkElementsTest" />
-        <item itemvalue="TestNG.WorkElementsTest.elementsTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +196,9 @@
       <workItem from="1709058141356" duration="4664000" />
       <workItem from="1709144484379" duration="5674000" />
       <workItem from="1709227461145" duration="109000" />
-      <workItem from="1709227588612" duration="1686000" />
+      <workItem from="1709227588612" duration="3124000" />
+      <workItem from="1709458803271" duration="2734000" />
+      <workItem from="1709577820878" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3">
       <option name="closed" value="true" />
@@ -232,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709149100460</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lesson 3">
+      <option name="closed" value="true" />
+      <created>1709230544154</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709230544154</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lesson 3">
+      <option name="closed" value="true" />
+      <created>1709230610807</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709230610807</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +291,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lesson 5" />
+    <MESSAGE value="Lesson 6" />
     <MESSAGE value="Lesson 3" />
     <option name="LAST_COMMIT_MESSAGE" value="Lesson 3" />
   </component>
