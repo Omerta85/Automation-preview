@@ -1,4 +1,4 @@
-package lesson7;
+package gui.lesson7;
 
 import base.Pages;
 import base.config.BaseTest;

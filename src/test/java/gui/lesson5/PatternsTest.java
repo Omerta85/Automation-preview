@@ -1,4 +1,4 @@
-package lesson5;
+package gui.lesson5;
 
 import base.Pages;
 import base.config.BaseTest;

@@ -4,13 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10c331b9-8aec-45df-bd12-d7073a972b6f" name="Changes" comment="Lesson 3">
+    <list default="true" id="10c331b9-8aec-45df-bd12-d7073a972b6f" name="Changes" comment="Lesson 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Files/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/Files/logs.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/config/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/config/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/pages/BurgerMenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/pages/BurgerMenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homework3/WorkElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/homework3/WorkElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson1/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson1/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson1/SecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson1/SecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson3/WorkWithElementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson3/WorkWithElementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson4/ConditionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson4/ConditionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson5/PatternsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson5/PatternsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson6/FrameworkTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson6/FrameworkTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/DetailsItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson7/DetailsItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson7/VarArgsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gui/lesson7/VarArgsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +80,18 @@
       <recent name="D:\OKTEN\Automation\Automation-preview\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.VarArgsTest.test2">
-    <configuration name="DetailsItemTest.detilsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.RestTest.postTest">
+    <configuration name="RestTest.apiTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson7.*" />
+          <option name="PATTERN" value="api.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson7" />
-      <option name="MAIN_CLASS_NAME" value="lesson7.DetailsItemTest" />
-      <option name="METHOD_NAME" value="detilsTest" />
+      <option name="PACKAGE_NAME" value="api.lesson8" />
+      <option name="MAIN_CLASS_NAME" value="api.lesson8.RestTest" />
+      <option name="METHOD_NAME" value="apiTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -93,17 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameworkTest.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RestTest.postTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Automation-QA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson6.*" />
+          <option name="PATTERN" value="api.lesson8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson6" />
-      <option name="MAIN_CLASS_NAME" value="lesson6.FrameworkTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="api.lesson8" />
+      <option name="MAIN_CLASS_NAME" value="api.lesson8.RestTest" />
+      <option name="METHOD_NAME" value="postTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -166,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RestTest.postTest" />
+        <item itemvalue="TestNG.RestTest.apiTest" />
         <item itemvalue="TestNG.VarArgsTest.test2" />
         <item itemvalue="TestNG.VarArgsTest" />
         <item itemvalue="TestNG.VarArgsTest.test" />
-        <item itemvalue="TestNG.DetailsItemTest.detilsTest" />
-        <item itemvalue="TestNG.FrameworkTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +204,8 @@
       <workItem from="1709227461145" duration="109000" />
       <workItem from="1709227588612" duration="3124000" />
       <workItem from="1709458803271" duration="2734000" />
-      <workItem from="1709577820878" duration="2338000" />
+      <workItem from="1709577820878" duration="6460000" />
+      <workItem from="1710264634389" duration="3282000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson 3">
       <option name="closed" value="true" />
@@ -272,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709230610807</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Lesson 7">
+      <option name="closed" value="true" />
+      <created>1709584511834</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709584511834</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +308,7 @@
     <MESSAGE value="Lesson 5" />
     <MESSAGE value="Lesson 6" />
     <MESSAGE value="Lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson 3" />
+    <MESSAGE value="Lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 7" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package homework3;
+package gui.homework3;
 
 import com.codeborne.selenide.ElementsCollection;
 import com.codeborne.selenide.SelenideElement;
